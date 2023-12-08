@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Личный кабинет{% endblock %}
+
+{% block body %}
+
+<div class="example-wrapper">
+    <p>
+    <a href="{{ path('app_article_new')}}" class="btn btn-primary"> Создать статью </a>
+    </p>
+    <p>
+    <a href="{{ path('homepage')}}" class="btn btn-primary"> Домой </a>
+    </p>
+</div>
+{% endblock %}

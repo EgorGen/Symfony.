@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello HomeController!{% endblock %}
+{% block title %}Главная страница{% endblock %}
 
 {% block body %}
 <style>
@@ -9,12 +9,18 @@
 </style>
 
 <div class="example-wrapper">
-    <h1>{{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'A:/my_project/src/Controller/HomeController.php'|file_link(0) }}">src/Controller/HomeController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'A:/my_project/templates/home/index.html.twig'|file_link(0) }}">templates/home/index.html.twig</a></code></li>
-    </ul>
+    <a href="{{ path('admin.index')}}" class="btn btn-primary">Личный кабинет</a>
+    {% for item in articles %}
+        <article>
+            <h2>{{ item.title }}</h2>
+            <div class="article-context">
+                {{ item.body|raw|nl2br}}
+            </div>
+            <div>
+                Дата создания: {{ item.createdAt| date('d.m.Y H:i:s') }} , Автор: {{ item.author.email }}
+                <a href="{{ path('app_article_edit', {'id': item.id}) }}">Редактировать</a>
+            </div>
+        </article>
+    {% endfor %}
 </div>
 {% endblock %}
