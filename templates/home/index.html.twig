@@ -20,10 +20,10 @@
 
     {% for item in articles %}
         <article>
-            <h2>{{ item.title }}</h2>
-            <div class="article-context">
-                {{ item.body|raw|nl2br}}
-            </div>
+            <h2><a href="{{ path('article.show', {'article': item.id}) }}">{{ item.title }}</a></h2>
+{#            <div class="article-content">#}
+{#                {{ item.body|raw|nl2br }}#}
+{#            </div>#}
             <div>
                 Дата создания: {{ item.createdAt| date('d.m.Y H:i:s') }} , Автор: {{ item.author.email }}
                 <a href="{{ path('app_article_edit', {'id': item.id}) }}">Редактировать</a>
