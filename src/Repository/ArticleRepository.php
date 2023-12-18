@@ -22,36 +22,18 @@ class ArticleRepository extends ServiceEntityRepository
     }
 
 
-    public function getRecentArticles(int $count)
+    public function getRecentArticles(int $count, string $search = null): \Doctrine\ORM\QueryBuilder
     {
-        return $this->createQueryBuilder('article')
-            ->orderBy('article.createdAt', 'desc')
-            ->getQuery()
-            ->setMaxResults($count)
-            ->getResult();
-    }
-//    /**
-//     * @return Article[] Returns an array of Article objects
-//     */
-//    public function findByExampleField($value): array
-//    {
-//        return $this->createQueryBuilder('a')
-//            ->andWhere('a.exampleField = :val')
-//            ->setParameter('val', $value)
-//            ->orderBy('a.id', 'ASC')
-//            ->setMaxResults(10)
-//            ->getQuery()
-//            ->getResult()
-//        ;
-//    }
+        $query =  $this->createQueryBuilder('q')
+            ->orderBy('q.createdAt', 'desc')
+            ->setMaxResults($count);
 
-//    public function findOneBySomeField($value): ?Article
-//    {
-//        return $this->createQueryBuilder('a')
-//            ->andWhere('a.exampleField = :val')
-//            ->setParameter('val', $value)
-//            ->getQuery()
-//            ->getOneOrNullResult()
-//        ;
-//    }
+
+        if ($search) {
+            $query->andWhere('q.title like :search or q.body like :search')
+            ->setParameter( 'search', '%'. $search .  '%');
+        }
+
+        return $query;
+    }
 }

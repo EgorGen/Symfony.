@@ -7,6 +7,7 @@ namespace App\Form;
 use App\Dto\SearchDto;
 use App\Entity\Article;
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\SearchType;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
@@ -16,8 +17,9 @@ class AppSearchType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $builder
-            ->add('search', \Symfony\Component\Form\Extension\Core\Type\TextType::class, [
+            ->add('search', SearchType::class, [
                 'label' =>'Поиск',
+                'required' => false,
             ])
         ;
     }
@@ -26,7 +28,7 @@ class AppSearchType extends AbstractType
     {
         $resolver->setDefaults([
             'data_class' => SearchDto::class,
-            'method' =>'GET',
+            'method' => 'GET',
             'csrf_protection' => false,
         ]);
     }
