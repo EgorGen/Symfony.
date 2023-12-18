@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12a666e5-6e47-4761-888b-3967ee8a3fc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Service/ArticleServiceInterface.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/ArticleService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/ArticleService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/messenger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/messenger.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/TestCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/TestCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EntityListener/ArticleEntityListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EntityListener/ArticleEntityListener.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Message/ArticleNotification.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Message/ArticleNotification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MessageHandler/ArticleMessageHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessageHandler/ArticleMessageHandler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/admin/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,12 +176,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;A:/my_project&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Symfony2.SettingsForm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -219,6 +223,20 @@
       <workItem from="1702210304891" duration="1207000" />
       <workItem from="1702348730446" duration="1459000" />
       <workItem from="1702546731299" duration="3988000" />
+      <workItem from="1702553378535" duration="4530000" />
+      <workItem from="1702559236408" duration="727000" />
+      <workItem from="1702651282866" duration="858000" />
+      <workItem from="1702652285978" duration="1275000" />
+      <workItem from="1702653608241" duration="1006000" />
+      <workItem from="1702722475494" duration="2088000" />
+      <workItem from="1702741360403" duration="979000" />
+      <workItem from="1702751593934" duration="1570000" />
+      <workItem from="1702807371854" duration="2729000" />
+      <workItem from="1702829763540" duration="584000" />
+      <workItem from="1702830983962" duration="185000" />
+      <workItem from="1702840224110" duration="96000" />
+      <workItem from="1702846312853" duration="2644000" />
+      <workItem from="1702880402213" duration="193000" />
     </task>
     <servers />
   </component>
