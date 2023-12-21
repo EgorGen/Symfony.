@@ -5,31 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12a666e5-6e47-4761-888b-3967ee8a3fc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/EntityListener/CommentEntityListener.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/AuthorizedCommentType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/UnauthorizedCommentType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeception.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeception.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cef2897b-cafb-4920-962d-47bf347ae157.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cef2897b-cafb-4920-962d-47bf347ae157.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cef2897b-cafb-4920-962d-47bf347ae157/storage_v2/_src_/schema/test.kkQ2AA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cef2897b-cafb-4920-962d-47bf347ae157/storage_v2/_src_/schema/test.kkQ2AA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/my_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/babdev_pagerfanta.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/babdev_pagerfanta.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/ArticleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article/_delete_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/article/_delete_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/article/_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/article/edit.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/article/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/article/new.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/article/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dto/SearchDto.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dto/SearchDto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EntityListener/ArticleEntityListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EntityListener/ArticleEntityListener.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EntityListener/CommentEntityListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EntityListener/CommentEntityListener.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/AppSearchType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/AppSearchType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/AuthorizedCommentType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/AuthorizedCommentType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/UnauthorizedCommentType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/UnauthorizedCommentType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Message/ArticleNotification.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Message/ArticleNotification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MessageHandler/ArticleMessageHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessageHandler/ArticleMessageHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/ArticleService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/ArticleService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/ArticleServiceInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/ArticleServiceInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/article/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/article/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/article/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/article/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/article/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/article/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/article/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/article/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/translations/messages.en.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/translations/messages.en.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/translations/messages.ru.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/translations/messages.ru.yaml" afterDir="false" />
     </list>
@@ -196,27 +199,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "A:/my_project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;A:/my_project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="A:\my_project\templates\admin" />
@@ -271,6 +274,9 @@
       <workItem from="1702880717788" duration="8952000" />
       <workItem from="1702892223419" duration="3214000" />
       <workItem from="1702898975319" duration="12355000" />
+      <workItem from="1703008704391" duration="220000" />
+      <workItem from="1703008942047" duration="3033000" />
+      <workItem from="1703157330727" duration="268000" />
     </task>
     <servers />
   </component>

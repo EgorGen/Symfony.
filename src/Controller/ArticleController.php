@@ -7,7 +7,6 @@ use App\Entity\Comment;
 use App\Form\AuthorizedCommentType;
 use App\Form\UnauthorizedCommentType;
 use App\Repository\CommentRepository;
-use http\Env\Request;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Console\Exception\CommandNotFoundException;
 use Symfony\Component\HttpFoundation\Response;
